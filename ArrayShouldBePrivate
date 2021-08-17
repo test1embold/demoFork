@@ -1,4 +1,4 @@
-package Demo;
+
 public class ArrayShouldBePrivate{
   
   public static final String arr[]={"Hello","My","Name","is"};
