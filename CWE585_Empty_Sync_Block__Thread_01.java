@@ -17,7 +17,7 @@ public class CWE585_Empty_Sync_Block__Thread_01 extends AbstractTestCase
     {
         synchronized(CWE585_Empty_Sync_Block__Thread_01.class) 
         {
-            /* FLAW: empty synchronized block - should cover whole method */
+          
         }
     
         intBad = intBad * 2;
