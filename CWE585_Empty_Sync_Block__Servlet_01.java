@@ -23,7 +23,7 @@ public class CWE585_Empty_Sync_Block__Servlet_01 extends AbstractTestCaseServlet
     {
         synchronized(CWE585_Empty_Sync_Block__Servlet_01.class) 
         {
-            /* FLAW: empty synchronized block - should cover whole method */
+            
         }
     
         intBad = intBad * 2;
