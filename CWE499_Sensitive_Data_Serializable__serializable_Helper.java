@@ -14,6 +14,7 @@ import testcasesupport.*;
 public class CWE499_Sensitive_Data_Serializable__serializable_Helper extends AbstractTestCaseClassIssue implements Serializable
 {
 	private static final long serialVersionUID = 100000L;
+	private String Password = "Password";
 	
 	/* Below is the main(). It is only used when building this testcase on 
      * its own for testing or for building a binary to use in testing binary 
