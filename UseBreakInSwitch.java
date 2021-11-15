@@ -22,7 +22,7 @@ public class UseBreakInSwitch {
 
             case 1:
                 logger.info("1");
-                break;
+               
 
             case 2:
                 logger.info("2");
