@@ -15,8 +15,9 @@ public class MissingRequiredCryptographicStep {
             Cipher aesCipher = Cipher.getInstance("AES");
             aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
             byte[] encrypted = aesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));
+	    IO.writeLine(IO.toHex(encrypted));
                  }
-         private void inValid() throws Throwable
+         public void inValid() throws Throwable
 	        {
 	        
 	            final String CIPHER_INPUT = "ABCDEFG123456";
@@ -28,5 +29,6 @@ public class MissingRequiredCryptographicStep {
 	            Cipher aesCipher = Cipher.getInstance("AES");
 	            aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
 	            byte[] encrypted = aesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));
+		    IO.writeLine(IO.toHex(encrypted));
 	        }
 }
