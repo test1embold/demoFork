@@ -11,4 +11,19 @@ public class ArrayShouldBePrivate{
   
   protected static final int arr4[]={123,345,678,901};
   
+  try{
+      Connection con = DriverManager.getConnection(mysqlUrl, "root", "password");
+      Statement stmt = con.createStatement(); {
+         try(ResultSet rs = stmt.executeQuery("select * from MyPlayers");){
+            //Retrieving the data
+            while(rs.next()) {
+            
+            }
+         } catch (SQLException e) {
+            e.printStackTrace();
+         }
+      }} catch (SQLException e) {
+            e.printStackTrace();
+      }
+  
 }
