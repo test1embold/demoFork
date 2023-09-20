@@ -8,6 +8,7 @@ public class AvoidThrowingGenericException {
     
     public void M2()throws Throwable{
         logger.info("Throwing generic exception");
+        System.out.println("Issue added");
     }
     
     public void M3()throws  InvocationTargetException{
