@@ -12,6 +12,7 @@ public class AvoidThrowingGenericException {
     
     public void M3()throws  InvocationTargetException{
         logger.info("Throwing InvocationTargetException");
+        System.out.println("Issue added");
     }
 
    
