@@ -5,6 +5,7 @@ public class  DirectObjectReference{
 	@Timed
 	public ResponseEntity < Record > get(@PathVariable Long id) {
 	return log.debug("REST request to get record" + id);
+		System.out.println("Hello");
 	}
 	
 }
