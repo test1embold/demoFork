@@ -14,4 +14,5 @@ public class AvoidUsingNullCipher {
 	
 	// EMB-ISSUE: CodeIssueNames.AVOID_NULL_CIPHER/no-detect
 	Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
+	System.out.println("Hello");
 }
