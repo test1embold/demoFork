@@ -1,9 +1,15 @@
 package demo;
 public class UseBreakInSwitch {
 
-    public void Statement(){
-        int day = 2;
-        int n =2;
+    public void Statement(String filePath){
+        try{
+            int day = 2;
+            int n =2;
+            File f = new File(filePath);
+            
+        }catch(Exception e){
+            
+        }
        
         switch (day){
 
