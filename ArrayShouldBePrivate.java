@@ -25,5 +25,9 @@ public class ArrayShouldBePrivate{
       }} catch (SQLException e) {
             e.printStackTrace();
       }
-  
+  try{
+    
+  }catch(Exception e){
+    System.out.println("Exception"+e);
+  }
 }
